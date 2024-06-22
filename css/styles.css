@@ -1,0 +1,115 @@
+body {
+    font-family:"Roboto","Raleway" sans-serif;
+    color:#434455;
+    background-color:#ffffff;
+}
+.link-list a {
+    color:#2e2f42;
+}
+.link-list .link:hover,
+.link-list .link:focus
+ {
+color:#4d5ae5;
+}
+.address a {
+color:#434455;
+font-size: 16;
+}
+.address .address-link:hover,
+.address .address-link:focus {
+color: #4d5ae5;
+}
+
+.hero {
+background-color: #2e2f42; 
+   width: 1440;
+     height: 600;
+}
+.hero-text {
+    font-family: "Roboto", sans-serif;
+    font-size:56;
+    font-weight: 700;
+    line-height: 1.07143;
+        color: #fff;
+}
+.hero-text-button {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        background: #4d5ae5;
+        color: #fff;
+        font-size: 16;
+        line-height: 1.5;
+}
+.hero-text-button:hover,
+.hero-text-button:focus
+ {
+    color: #404bbf;
+}
+.priorities h3 {
+font-weight: 500;
+    font-size: 20;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+.priorities p {
+font-weight: 400;
+    font-size: 16;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.priorities {
+background-color: #ffffff;
+}
+.team {
+background-color: #f4f4fd;
+width: 1440;
+height: 732;
+}
+.team-title {
+font-weight: 700;
+font-size: 36;
+    line-height: 1.11111;
+color: #2e2f42;
+}
+.team h3 {
+font-weight: 500;
+font-size: 20;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+.team p {
+    font-weight: 400;
+    font-size: 16;
+        line-height: 1.5;
+        color: #434455;
+}
+.portfolio {
+background: #fff;
+}
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36;
+        line-height: 1.11111;
+        color: #2e2f42;
+}
+.portfolio h3 {
+font-weight: 500;
+font-size: 20;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+.portfolio p {
+font-weight: 400;
+font-size: 16;
+    line-height: 1.5;
+    color: #434455;
+}
+.footer-page{
+    background: #2e2f42;
+    }
+.copyright-text{
+    font-family: "Roboto", sans-serif;
+    font-size: 16;
+        line-height: 1.5;
+        color: #f4f4fd
+}
