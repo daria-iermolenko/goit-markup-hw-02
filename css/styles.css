@@ -3,21 +3,44 @@ body {
     color:#434455;
     background-color:#ffffff;
 }
-.link-list a {
-    color:#2e2f42;
+ .logo-text {
+     font-family: "Raleway", sans-serif;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 1.17;
+     letter-spacing: 0.03em;
+     text-transform: uppercase;
+     color:#4d5ae5;
+ }
+ .ingredient-logo {
+     color: #2e2f42;
+    }
+
+.link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+      color:#2e2f42;
 }
-.link-list .link:hover,
-.link-list .link:focus
- {
-color:#4d5ae5;
+.link:hover,
+.link:focus 
+{
+color: #404bbf;
 }
-.address a {
-color:#434455;
-font-size: 16;
+.address-text {
+    font-style: normal;
 }
-.address .address-link:hover,
-.address .address-link:focus {
-color: #4d5ae5;
+.address-link {
+     font-size: 16px; 
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.address-link:hover,
+.address-link:focus {
+color: #404bbf;
 }
 
 .hero {
@@ -36,13 +59,25 @@ background-color: #2e2f42;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background: #4d5ae5;
         color: #fff;
-        font-size: 16;
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
         line-height: 1.5;
+        font-weight: 500;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+
 }
 .hero-text-button:hover,
 .hero-text-button:focus
  {
-    color: #404bbf;
+    background-color: #404BBF;
+}
+.title-priorities {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .priorities h3 {
 font-weight: 500;
@@ -54,6 +89,7 @@ font-weight: 500;
 font-weight: 400;
     font-size: 16;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
@@ -67,20 +103,26 @@ height: 732;
 }
 .team-title {
 font-weight: 700;
-font-size: 36;
-    line-height: 1.11111;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
 color: #2e2f42;
 }
-.team h3 {
+.team-list h3 {
+background-color: #FFFFFF;
 font-weight: 500;
-font-size: 20;
+    font-size: 20;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.team p {
+.team-list p {
     font-weight: 400;
-    font-size: 16;
+    font-size: 16px;
         line-height: 1.5;
+        letter-spacing: 0.02em;
         color: #434455;
 }
 .portfolio {
@@ -88,28 +130,46 @@ background: #fff;
 }
 .portfolio-title {
     font-weight: 700;
-    font-size: 36;
-        line-height: 1.11111;
-        color: #2e2f42;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: #2e2f42;
 }
-.portfolio h3 {
+.portfolio-list h3 {
 font-weight: 500;
-font-size: 20;
+font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.portfolio p {
+.portfolio-list p {
 font-weight: 400;
 font-size: 16;
     line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #434455;
 }
-.footer-page{
+.footer-page {
     background: #2e2f42;
     }
-.copyright-text{
+    .logo-text {
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+    }
+    .ingredient {
+        color: #f4f4fd;
+    }
+.copyright-text {
     font-family: "Roboto", sans-serif;
     font-size: 16;
         line-height: 1.5;
+        letter-spacing: 0.02em;
         color: #f4f4fd
 }
