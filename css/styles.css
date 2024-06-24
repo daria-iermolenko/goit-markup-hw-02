@@ -1,5 +1,5 @@
 body {
-    font-family:"Roboto","Raleway" sans-serif;
+    font-family:"Roboto", sans-serif;
     color:#434455;
     background-color:#ffffff;
 }
@@ -44,18 +44,17 @@ color: #404bbf;
 
 .hero {
 background-color: #2e2f42; 
-   width: 1440;
-     height: 600;
 }
 .hero-text {
     font-family: "Roboto", sans-serif;
-    font-size:56;
+    font-size: 56px;
+    text-align: center;
     font-weight: 700;
-    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
         color: #fff;
 }
 .hero-text-button {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
         background: #4d5ae5;
         color: #fff;
         font-family: "Roboto", sans-serif;
@@ -78,20 +77,20 @@ background-color: #2e2f42;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.priorities h3 {
+.priorities-title {
 font-weight: 500;
-    font-size: 20;
+    font-size: 20px;
+    letter-spacing: 0.02em;
     line-height: 1.2;
     color: #2e2f42;
 }
-.priorities p {
+.priorities-text {
 font-weight: 400;
-    font-size: 16;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
-
 .priorities {
 background-color: #ffffff;
 }
@@ -109,15 +108,17 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2e2f42;
 }
-.team-list h3 {
+.team-list {
 background-color: #FFFFFF;
+}
+.team-list-title {
 font-weight: 500;
-    font-size: 20;
+    font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.team-list p {
+.team-list-text {
     font-weight: 400;
     font-size: 16px;
         line-height: 1.5;
@@ -136,16 +137,16 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: #2e2f42;
 }
-.portfolio-list h3 {
+.portfolio-list {
 font-weight: 500;
 font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.portfolio-list p {
+.portfolio-list-text {
 font-weight: 400;
-font-size: 16;
+font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
@@ -167,7 +168,7 @@ font-size: 16;
     }
 .copyright-text {
     font-family: "Roboto", sans-serif;
-    font-size: 16;
+    font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd
