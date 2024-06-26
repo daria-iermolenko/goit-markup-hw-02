@@ -25,7 +25,7 @@ body {
 .header-link .link:hover,
 .header-link .link:focus
  {
-    background-color: #404bbf;
+    color: #404bbf;
 }
 .address-text {
     font-style: normal;
